@@ -9,3 +9,7 @@ This repository contains my first HTML portfolio website.
 - CSS
 
 Currently learning web development.
+## About Me
+
+I am a BCA student.
+Currently learning HTML, CSS, JavaScript and GitHub.
