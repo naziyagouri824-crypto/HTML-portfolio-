@@ -27,3 +27,14 @@ ul,ol{
 hr{
     margin:25px 0;
 }
+h3{
+    color:#1f4e79;
+}
+
+div{
+    margin-bottom:20px;
+}
+
+p{
+    text-align:justify;
+}
