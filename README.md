@@ -17,3 +17,11 @@ I am a BCA student passionate about learning web development.
 ## Current Goal
 
 Build real-world web projects and improve my development skills.
+## Future Learning
+
+In the future, I plan to:
+
+- Add JavaScript functionality
+- Improve the user interface
+- Make the calculator fully responsive
+- Deploy the project online
