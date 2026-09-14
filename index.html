@@ -1,16 +1,28 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Naziya Gouri — BCA Student | Aspiring Web Developer</title>
 <meta name="description" content="Portfolio of Naziya Gouri, a BCA student learning web development by building real projects.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
-<noscript><style>.reveal{ opacity:1 !important; transform:none !important; }</style></noscript>
+
+<noscript>
+  <style>
+    .reveal {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  </style>
+</noscript>
 </head>
+
 <body>
 
 <a class="skip-link" href="#main">Skip to content</a>
@@ -18,198 +30,524 @@
 <header>
   <nav class="wrap">
     <a href="#top" class="brand">Naziya<span>.</span>dev</a>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#goals">Goals</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <div class="nav-right">
-      <a href="https://github.com/naziyagouri824-crypto" target="_blank" rel="noopener" class="nav-github" aria-label="GitHub profile">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18 0 1.57-.01 2.84-.01 3.23 0 .3.2.66.79.55A10.5 10.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
-      </a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
+
+```
+<ul class="nav-links" id="navLinks">
+  <li><a href="#about">About</a></li>
+  <li><a href="#education">Education</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#goals">Goals</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="nav-right">
+  <a
+    href="https://github.com/naziyagouri824-crypto"
+    target="_blank"
+    rel="noopener"
+    class="nav-github"
+    aria-label="GitHub profile"
+  >
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18 0 1.57-.01 2.84-.01 3.23 0 .3.2.66.79.55A10.5 10.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+    </svg>
+  </a>
+
+  <button
+    class="menu-toggle"
+    id="menuToggle"
+    aria-label="Toggle navigation"
+    aria-expanded="false"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</div>
+```
+
   </nav>
 </header>
 
 <main id="main">
 
   <!-- ================= HERO ================= -->
+
   <section class="hero" id="top">
     <div class="wrap hero-inner">
       <p class="eyebrow auto-in" style="animation-delay:.05s">Hey, I'm</p>
-      <h1 class="auto-in" style="animation-delay:.15s">Naziya Gouri</h1>
-      <p class="role auto-in" style="animation-delay:.25s">BCA Student <span class="sep">|</span> Aspiring Web Developer</p>
-      <p class="hero-text auto-in" style="animation-delay:.35s">I'm learning programming and web development the way I think it sticks best — by building small, real projects instead of just reading about concepts. This portfolio is a running record of that process.</p>
-      <div class="btn-row auto-in" style="animation-delay:.45s">
-        <a href="#projects" class="btn btn-primary">View Projects</a>
-        <a href="https://github.com/naziyagouri824-crypto" target="_blank" rel="noopener" class="btn btn-outline">GitHub ↗</a>
-      </div>
-    </div>
+
+```
+  <h1 class="auto-in" style="animation-delay:.15s">
+    Naziya Gouri
+  </h1>
+
+  <p class="role auto-in" style="animation-delay:.25s">
+    BCA Student <span class="sep">|</span> Aspiring Web Developer
+  </p>
+
+  <p class="hero-text auto-in" style="animation-delay:.35s">
+    I'm learning programming and web development the way I think it sticks best —
+    by building small, real projects instead of just reading about concepts.
+    This portfolio is a running record of that process.
+  </p>
+
+  <div class="btn-row auto-in" style="animation-delay:.45s">
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+
+    <a
+      href="https://github.com/naziyagouri824-crypto"
+      target="_blank"
+      rel="noopener"
+      class="btn btn-outline"
+    >
+      GitHub ↗
+    </a>
+  </div>
+</div>
+```
+
   </section>
 
   <!-- ================= ABOUT ================= -->
+
   <section class="section" id="about">
     <div class="wrap about-grid">
-      <div class="reveal">
-        <span class="kicker">About Me</span>
-        <h2>Learning by building, not just studying</h2>
-        <p>I'm a BCA student with a genuine interest in programming, web development, and creative technology. I find that concepts make a lot more sense once I've actually built something with them, so most of what I know so far has come from small hands-on projects rather than theory alone.</p>
-        <p>I'm still early in this journey and I'm upfront about that — but I'm consistent about showing up, building, and improving one project at a time.</p>
-      </div>
-      <div class="code-card reveal" aria-hidden="true">
-        <div class="code-card-head"><span></span><span></span><span></span></div>
-        <pre><code><span class="tok-kw">const</span> <span class="tok-var">developer</span> = {
-  <span class="tok-prop">name</span>: <span class="tok-str">'Naziya Gouri'</span>,
-  <span class="tok-prop">role</span>: <span class="tok-str">'BCA Student'</span>,
-  <span class="tok-prop">approach</span>: <span class="tok-str">'learn by building'</span>,
-  <span class="tok-prop">currentlyLearning</span>: [
-    <span class="tok-str">'DBMS'</span>, <span class="tok-str">'Computer Networks'</span>,
-    <span class="tok-str">'Java'</span>, <span class="tok-str">'Computer Graphics'</span>
-  ]
-};</code></pre>
-      </div>
+
+```
+  <div class="reveal">
+    <span class="kicker">About Me</span>
+
+    <h2>Learning by building, not just studying</h2>
+
+    <p>
+      I'm a BCA student with a genuine interest in programming, web development,
+      and creative technology. I find that concepts make a lot more sense once
+      I've actually built something with them, so most of what I know so far has
+      come from small hands-on projects rather than theory alone.
+    </p>
+
+    <p>
+      I'm still early in this journey and I'm upfront about that — but I'm
+      consistent about showing up, building, and improving one project at a time.
+    </p>
+  </div>
+
+  <div class="code-card reveal" aria-hidden="true">
+    <div class="code-card-head">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
+
+    <pre><code><span class="tok-kw">const</span> <span class="tok-var">developer</span> = {
+```
+
+<span class="tok-prop">name</span>: <span class="tok-str">'Naziya Gouri'</span>, <span class="tok-prop">role</span>: <span class="tok-str">'BCA Student'</span>, <span class="tok-prop">approach</span>: <span class="tok-str">'learn by building'</span>, <span class="tok-prop">currentlyLearning</span>: [ <span class="tok-str">'DBMS'</span>, <span class="tok-str">'Computer Networks'</span>, <span class="tok-str">'Java'</span>, <span class="tok-str">'Computer Graphics'</span>
+]
+};</code></pre> </div>
+
+```
+</div>
+```
+
   </section>
 
   <!-- ================= EDUCATION ================= -->
+
   <section class="section section-alt" id="education">
     <div class="wrap">
-      <span class="kicker reveal">Education</span>
-      <div class="edu-card reveal">
-        <div>
-          <h3>Bachelor of Computer Applications (BCA)</h3>
-          <p class="edu-sub">Lucky Institute Of Professional Studies, JNVU</p>
-        </div>
-        <div class="edu-status">
-          <span class="badge">Currently Pursuing</span>
-          <span class="edu-date">Expected Graduation: August 2028</span>
-        </div>
-      </div>
+
+```
+  <span class="kicker reveal">Education</span>
+
+  <div class="edu-card reveal">
+    <div>
+      <h3>Bachelor of Computer Applications (BCA)</h3>
+      <p class="edu-sub">Lucky Institute Of Professional Studies, JNVU</p>
     </div>
+
+    <div class="edu-status">
+      <span class="badge">Currently Pursuing</span>
+      <span class="edu-date">Expected Graduation: August 2028</span>
+    </div>
+  </div>
+
+</div>
+```
+
   </section>
 
   <!-- ================= SKILLS ================= -->
+
   <section class="section" id="skills">
     <div class="wrap">
-      <span class="kicker reveal">Skills</span>
-      <h2 class="reveal">Tools & languages I'm working with</h2>
-      <p class="section-note reveal">A mix of tools I'm comfortable working with and ones I'm still learning — this is a snapshot of where I am right now, not a finished skill set.</p>
-      <div class="skills-grid">
-        <div class="skill-card reveal"><span class="skill-icon">&lt;/&gt;</span><h4>HTML</h4><span class="badge badge-soft">Working With</span></div>
-        <div class="skill-card reveal"><span class="skill-icon">◆</span><h4>CSS</h4><span class="badge badge-soft">Working With</span></div>
-        <div class="skill-card reveal"><span class="skill-icon">JS</span><h4>JavaScript</h4><span class="badge badge-soft">Working With</span></div>
-        <div class="skill-card reveal"><span class="skill-icon">☕</span><h4>Java</h4><span class="badge badge-soft">Learning</span></div>
-        <div class="skill-card reveal"><span class="skill-icon">C++</span><h4>C / C++</h4><span class="badge badge-soft">Learning</span></div>
-        <div class="skill-card reveal"><span class="skill-icon">⌥</span><h4>Git &amp; GitHub</h4><span class="badge badge-soft">Working With</span></div>
-        <div class="skill-card reveal"><span class="skill-icon">DB</span><h4>DBMS / MySQL</h4><span class="badge badge-soft">Learning</span></div>
-        <div class="skill-card reveal"><span class="skill-icon">◈</span><h4>Computer Networks</h4><span class="badge badge-soft">Learning</span></div>
-      </div>
+
+```
+  <span class="kicker reveal">Skills</span>
+
+  <h2 class="reveal">
+    Tools & languages I'm working with
+  </h2>
+
+  <p class="section-note reveal">
+    A mix of tools I'm comfortable working with and ones I'm still learning —
+    this is a snapshot of where I am right now, not a finished skill set.
+  </p>
+
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">&lt;/&gt;</span>
+      <h4>HTML</h4>
+      <span class="badge badge-soft">Working With</span>
     </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">◆</span>
+      <h4>CSS</h4>
+      <span class="badge badge-soft">Working With</span>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">JS</span>
+      <h4>JavaScript</h4>
+      <span class="badge badge-soft">Working With</span>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">☕</span>
+      <h4>Java</h4>
+      <span class="badge badge-soft">Learning</span>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">C++</span>
+      <h4>C / C++</h4>
+      <span class="badge badge-soft">Learning</span>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">⌥</span>
+      <h4>Git &amp; GitHub</h4>
+      <span class="badge badge-soft">Working With</span>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">DB</span>
+      <h4>DBMS / MySQL</h4>
+      <span class="badge badge-soft">Learning</span>
+    </div>
+
+    <div class="skill-card reveal">
+      <span class="skill-icon">◈</span>
+      <h4>Computer Networks</h4>
+      <span class="badge badge-soft">Learning</span>
+    </div>
+
+  </div>
+</div>
+```
+
   </section>
 
   <!-- ================= PROJECTS ================= -->
+
   <section class="section section-alt" id="projects">
     <div class="wrap">
-      <span class="kicker reveal">Projects</span>
-      <h2 class="reveal">Things I've built</h2>
-      <p class="section-note reveal">Small, real projects — each one built to practice a specific concept.</p>
 
-      <div class="projects-grid">
-        <article class="project-card reveal">
-          <h3>Simple Calculator</h3>
-          <p>A browser-based calculator built to practice DOM manipulation and handling user input with vanilla JavaScript.</p>
-          <div class="tech-row">
-            <span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span class="tech-tag">JavaScript</span>
-          </div>
-          <div class="card-links">
-            <a href="https://naziyagouri824-crypto.github.io/calculator-project-/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Live Demo</a>
-            <a href="https://github.com/naziyagouri824-crypto/calculator-project-" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
-          </div>
-        </article>
+```
+  <span class="kicker reveal">Projects</span>
 
-        <article class="project-card reveal">
-          <h3>Number Guessing Game</h3>
-          <p>A Java console game with Easy/Medium/Hard difficulty levels, a scoring system, a maximum-attempts limit, input validation, and a replay option.</p>
-          <div class="tech-row">
-            <span class="tech-tag">Java</span><span class="tech-tag">Console App</span>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/naziyagouri824-crypto/number-guessing-game" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
-          </div>
-        </article>
+  <h2 class="reveal">Things I've built</h2>
 
-        <article class="project-card reveal">
-          <h3>BCA Notes</h3>
-          <p>A growing collection of my own programming and computer science study notes, organised topic by topic as I go through my coursework.</p>
-          <div class="tech-row">
-            <span class="tech-tag">Markdown</span><span class="tech-tag">Documentation</span>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/naziyagouri824-crypto/bca-notes" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
-          </div>
-        </article>
+  <p class="section-note reveal">
+    Small, real projects — each one built to practice a specific concept.
+  </p>
 
-        <article class="project-card reveal">
-          <h3>HTML Portfolio</h3>
-          <p>My very first portfolio project — the first site I built while learning HTML and CSS from scratch.</p>
-          <div class="tech-row">
-            <span class="tech-tag">HTML</span><span class="tech-tag">CSS</span>
-          </div>
-          <div class="card-links">
-            <a href="https://github.com/naziyagouri824-crypto/HTML-portfolio-" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
-          </div>
-        </article>
+  <div class="projects-grid">
+
+    <!-- PROJECT 01 -->
+    <article class="project-card reveal">
+      <h3>Simple Calculator</h3>
+
+      <p>
+        A browser-based calculator built to practice DOM manipulation
+        and handling user input with vanilla JavaScript.
+      </p>
+
+      <div class="tech-row">
+        <span class="tech-tag">HTML</span>
+        <span class="tech-tag">CSS</span>
+        <span class="tech-tag">JavaScript</span>
       </div>
-    </div>
+
+      <div class="card-links">
+        <a
+          href="https://naziyagouri824-crypto.github.io/calculator-project-/"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary btn-sm"
+        >
+          Live Demo
+        </a>
+
+        <a
+          href="https://github.com/naziyagouri824-crypto/calculator-project-"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-outline btn-sm"
+        >
+          GitHub
+        </a>
+      </div>
+    </article>
+
+
+    <!-- PROJECT 02 -->
+    <article class="project-card reveal">
+      <h3>Number Guessing Game</h3>
+
+      <p>
+        A Java console game with Easy/Medium/Hard difficulty levels,
+        a scoring system, a maximum-attempts limit, input validation,
+        and a replay option.
+      </p>
+
+      <div class="tech-row">
+        <span class="tech-tag">Java</span>
+        <span class="tech-tag">Console App</span>
+      </div>
+
+      <div class="card-links">
+        <a
+          href="https://github.com/naziyagouri824-crypto/number-guessing-game"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-outline btn-sm"
+        >
+          GitHub
+        </a>
+      </div>
+    </article>
+
+
+    <!-- PROJECT 03 -->
+    <article class="project-card reveal">
+      <h3>BCA Notes</h3>
+
+      <p>
+        A growing collection of my own programming and computer science
+        study notes, organised topic by topic as I go through my coursework.
+      </p>
+
+      <div class="tech-row">
+        <span class="tech-tag">Markdown</span>
+        <span class="tech-tag">Documentation</span>
+      </div>
+
+      <div class="card-links">
+        <a
+          href="https://github.com/naziyagouri824-crypto/bca-notes"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-outline btn-sm"
+        >
+          GitHub
+        </a>
+      </div>
+    </article>
+
+
+    <!-- PROJECT 04 -->
+    <article class="project-card reveal">
+      <h3>HTML Portfolio</h3>
+
+      <p>
+        My very first portfolio project — the first site I built while
+        learning HTML and CSS from scratch.
+      </p>
+
+      <div class="tech-row">
+        <span class="tech-tag">HTML</span>
+        <span class="tech-tag">CSS</span>
+      </div>
+
+      <div class="card-links">
+        <a
+          href="https://github.com/naziyagouri824-crypto/HTML-portfolio-"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-outline btn-sm"
+        >
+          GitHub
+        </a>
+      </div>
+    </article>
+
+
+    <!-- PROJECT 05 - MEMORY RUSH -->
+    <article class="project-card reveal">
+
+      <h3>Memory Rush 🧠</h3>
+
+      <p>
+        A fast-paced interactive memory game featuring 3D card flips,
+        multiple themes, difficulty levels, combo scoring, power-ups,
+        sound effects, achievements, and saved best scores.
+      </p>
+
+      <div class="tech-row">
+        <span class="tech-tag">HTML</span>
+        <span class="tech-tag">CSS</span>
+        <span class="tech-tag">JavaScript</span>
+      </div>
+
+      <div class="card-links">
+
+        <a
+          href="https://github.com/naziyagouri824-crypto/memory-rush"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-outline btn-sm"
+        >
+          GitHub
+        </a>
+
+      </div>
+
+    </article>
+
+  </div>
+</div>
+```
+
   </section>
 
   <!-- ================= GOALS ================= -->
+
   <section class="section" id="goals">
     <div class="wrap goals-grid">
-      <div class="reveal">
-        <span class="kicker">Learning &amp; Goals</span>
-        <h2>What I'm working on next</h2>
-        <p>Right now I'm going deeper into DBMS and Computer Networks, and starting to explore Computer Graphics alongside my regular coursework. Alongside that, I'm continuing to sharpen my Git &amp; GitHub workflow, since it's something I use for every project.</p>
-        <p>My goal over the next while is simple: keep building real, working projects — even small ones — and use them to prepare for internship and software development opportunities.</p>
-      </div>
-      <ul class="goals-list reveal">
-        <li><span>01</span>Get comfortable building logic-heavy programs, not just following syntax</li>
-        <li><span>02</span>Go deeper into DBMS and Computer Networks fundamentals</li>
-        <li><span>03</span>Explore the basics of Computer Graphics</li>
-        <li><span>04</span>Build and publish several real-world projects to strengthen my portfolio</li>
-        <li><span>05</span>Prepare for internship and entry-level developer opportunities</li>
-      </ul>
-    </div>
+
+```
+  <div class="reveal">
+    <span class="kicker">Learning &amp; Goals</span>
+
+    <h2>What I'm working on next</h2>
+
+    <p>
+      Right now I'm going deeper into DBMS and Computer Networks, and
+      starting to explore Computer Graphics alongside my regular coursework.
+      Alongside that, I'm continuing to sharpen my Git &amp; GitHub workflow,
+      since it's something I use for every project.
+    </p>
+
+    <p>
+      My goal over the next while is simple: keep building real, working
+      projects — even small ones — and use them to prepare for internship
+      and software development opportunities.
+    </p>
+  </div>
+
+  <ul class="goals-list reveal">
+
+    <li>
+      <span>01</span>
+      Get comfortable building logic-heavy programs, not just following syntax
+    </li>
+
+    <li>
+      <span>02</span>
+      Go deeper into DBMS and Computer Networks fundamentals
+    </li>
+
+    <li>
+      <span>03</span>
+      Explore the basics of Computer Graphics
+    </li>
+
+    <li>
+      <span>04</span>
+      Build and publish several real-world projects to strengthen my portfolio
+    </li>
+
+    <li>
+      <span>05</span>
+      Prepare for internship and entry-level developer opportunities
+    </li>
+
+  </ul>
+
+</div>
+```
+
   </section>
 
   <!-- ================= CONTACT ================= -->
+
   <section class="section section-alt" id="contact">
-    <div class="wrap contact-box reveal">
-      <h2>Let's connect</h2>
-      <p>Open to internship opportunities, feedback on my projects, or just a chat about learning to code.</p>
-      <div class="btn-row contact-btns">
-        <a href="mailto:naziyagouri824@gmail.com" class="btn btn-primary">Email Me</a>
-        <a href="https://www.linkedin.com/in/naziya-gouri-458691385" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
-        <a href="https://github.com/naziyagouri824-crypto" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
-      </div>
-    </div>
+
+```
+<div class="wrap contact-box reveal">
+
+  <h2>Let's connect</h2>
+
+  <p>
+    Open to internship opportunities, feedback on my projects,
+    or just a chat about learning to code.
+  </p>
+
+  <div class="btn-row contact-btns">
+
+    <a href="mailto:naziyagouri824@gmail.com" class="btn btn-primary">
+      Email Me
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/naziya-gouri-458691385"
+      target="_blank"
+      rel="noopener"
+      class="btn btn-outline"
+    >
+      LinkedIn
+    </a>
+
+    <a
+      href="https://github.com/naziyagouri824-crypto"
+      target="_blank"
+      rel="noopener"
+      class="btn btn-outline"
+    >
+      GitHub
+    </a>
+
+  </div>
+
+</div>
+```
+
   </section>
 
 </main>
 
 <footer>
   <div class="wrap footer-inner">
-    <p>&copy; <span id="year"></span> Naziya Gouri</p>
-    <p class="footer-sub">Built with HTML, CSS &amp; vanilla JavaScript.</p>
+
+```
+<p>
+  &copy; <span id="year"></span> Naziya Gouri
+</p>
+
+<p class="footer-sub">
+  Built with HTML, CSS &amp; vanilla JavaScript.
+</p>
+```
+
   </div>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
